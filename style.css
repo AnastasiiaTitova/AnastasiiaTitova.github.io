@@ -1,0 +1,101 @@
+body
+{
+	background: url(woods.jpg) no-repeat;
+	background-size:cover;
+}
+
+.carousel
+{
+	margin-top: 35px;
+}
+
+.col-sm-3
+{
+	text-align: center;
+	background:#59a35f;
+	border: 1px solid;
+	border-color:#212529;
+	min-width: 220px;
+	margin: 25px 25px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.col-sm-3:hover 
+{
+  	-webkit-transform: scale(1.1);
+ 	transform: scale(1.1);
+  	transition-duration: 0.1s;
+}
+
+.dropdown-menu a:focus
+{
+	background: #2d593a;
+}
+
+.round 
+{
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #2d593a, 0 0 13px #2d593a;
+ }
+
+.container
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.section
+{
+	margin: 20px;
+	padding: 20px;
+	background-color: #59a35f;
+	border: 1px solid;
+	border-color:#212529;
+	display: inline-block;
+	flex-grow: 7;
+}
+
+.no-section
+{
+	display: inline-block;
+	flex-grow: 1;
+}
+
+.btn
+{
+	background-color:#2d593a;
+	border-color: #2d593a;
+}
+
+.card
+{
+	background-color:#2d593a;
+	padding: 0px;
+}
+
+#toTop 
+{
+	position:fixed;
+	bottom:6%; 
+	right:5%;
+ 	width: 40px;
+    height: 40px;
+	background: transparent url("top.png") no-repeat left top;
+	cursor:pointer;
+	display:none;
+}
+
+#vk_groups
+{
+	margin: 20px;
+}
+
+#teleg
+{
+	margin: 20px;
+	margin-top: 0px;
+}
